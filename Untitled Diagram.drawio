@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T14:14:38.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="jcDL8JSFu8rzDLRJOeGI" version="17.4.2" type="github" pages="2">
-  <diagram id="uru9vWaJZVy2WStaJyd-" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-04-10T14:15:29.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="oGZusQxeJIWYIrfJUYpK" version="17.4.2" type="github" pages="2">
+  <diagram id="uru9vWaJZVy2WStaJyd-" name="中心化前">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -121,7 +121,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="giztfc1IRxYqYgYhi5p3" name="Page-2">
+  <diagram id="giztfc1IRxYqYgYhi5p3" name="中心化后">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
