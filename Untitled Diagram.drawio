@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T10:12:43.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="_gSGLq6k_2U7lehPlLlf" version="17.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-11T10:17:06.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="DEKIPCDzWdmxbPPzc9hF" version="17.4.2" type="github" pages="2">
   <diagram id="uru9vWaJZVy2WStaJyd-" name="中心化前">
     <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,13 +10,27 @@
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-11" value="RSP" style="swimlane;startSize=20;" parent="kRNR0OF8YTdY22zpzSEZ-10" vertex="1">
           <mxGeometry y="20" width="230" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="kRNR0OF8YTdY22zpzSEZ-32" value="connectPlay接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="kRNR0OF8YTdY22zpzSEZ-11" vertex="1">
+        <mxCell id="kRNR0OF8YTdY22zpzSEZ-32" value="connectPlay接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="kRNR0OF8YTdY22zpzSEZ-11" vertex="1">
           <mxGeometry x="40" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9fULcuAvFOEzsl4sqG0-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kRNR0OF8YTdY22zpzSEZ-11" target="kRNR0OF8YTdY22zpzSEZ-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="70" as="sourcePoint" />
+            <mxPoint x="210" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUBY9VWFVFdGw8IkFwU1-2" value="上传课件时后端推送xt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FF3333;" vertex="1" connectable="0" parent="O9fULcuAvFOEzsl4sqG0-2">
+          <mxGeometry x="0.1429" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-12" value="成教" style="swimlane;startSize=20;" parent="kRNR0OF8YTdY22zpzSEZ-10" vertex="1">
           <mxGeometry x="230" y="20" width="190" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="kRNR0OF8YTdY22zpzSEZ-24" value="目录大纲JSON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="kRNR0OF8YTdY22zpzSEZ-12" vertex="1">
+        <mxCell id="kRNR0OF8YTdY22zpzSEZ-24" value="目录大纲JSON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;strokeColor=#36393d;" parent="kRNR0OF8YTdY22zpzSEZ-12" vertex="1">
           <mxGeometry x="20" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-13" value="APP" style="swimlane;startSize=20;" parent="kRNR0OF8YTdY22zpzSEZ-10" vertex="1">
@@ -24,10 +38,10 @@
             <mxRectangle x="230" y="20" width="30" height="680" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kRNR0OF8YTdY22zpzSEZ-22" value="目录大纲" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="kRNR0OF8YTdY22zpzSEZ-13" vertex="1">
+        <mxCell id="kRNR0OF8YTdY22zpzSEZ-22" value="目录大纲" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" parent="kRNR0OF8YTdY22zpzSEZ-13" vertex="1">
           <mxGeometry x="20" y="130" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kRNR0OF8YTdY22zpzSEZ-25" value="播放器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="kRNR0OF8YTdY22zpzSEZ-13" vertex="1">
+        <mxCell id="kRNR0OF8YTdY22zpzSEZ-25" value="播放器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=#36393d;" parent="kRNR0OF8YTdY22zpzSEZ-13" vertex="1">
           <mxGeometry x="20" y="325" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="kRNR0OF8YTdY22zpzSEZ-13" target="kRNR0OF8YTdY22zpzSEZ-25" edge="1">
@@ -87,7 +101,7 @@
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-19" value="学生" style="swimlane;startSize=20;" parent="kRNR0OF8YTdY22zpzSEZ-10" vertex="1">
           <mxGeometry x="600" y="20" width="210" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="kRNR0OF8YTdY22zpzSEZ-21" value="学习课件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="kRNR0OF8YTdY22zpzSEZ-19" vertex="1">
+        <mxCell id="kRNR0OF8YTdY22zpzSEZ-21" value="学习课件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="kRNR0OF8YTdY22zpzSEZ-19" vertex="1">
           <mxGeometry x="50" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="kRNR0OF8YTdY22zpzSEZ-19" target="kRNR0OF8YTdY22zpzSEZ-22" edge="1">
@@ -99,6 +113,15 @@
         <mxCell id="1svYh-Q59Pr18d9B5f4D-3" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#000000;" parent="kRNR0OF8YTdY22zpzSEZ-23" vertex="1" connectable="0">
           <mxGeometry x="-0.5111" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sdYNH2YNu2w2Xoyuo1pE-1" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="kRNR0OF8YTdY22zpzSEZ-19">
+          <mxGeometry x="80" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sdYNH2YNu2w2Xoyuo1pE-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF3333;" edge="1" parent="kRNR0OF8YTdY22zpzSEZ-19" target="kRNR0OF8YTdY22zpzSEZ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="90" as="sourcePoint" />
+            <mxPoint x="160" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kRNR0OF8YTdY22zpzSEZ-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=0.875;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kRNR0OF8YTdY22zpzSEZ-24" edge="1">
@@ -117,6 +140,9 @@
           <mxGeometry x="0.4419" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O9fULcuAvFOEzsl4sqG0-1" value="data.js生成JSON" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
