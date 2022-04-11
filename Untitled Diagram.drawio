@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T09:41:25.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="lU1ExITYq5jzUpoQ6Jto" version="17.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-11T10:11:51.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="oO9XJCGNmF2Cbb3XAdn-" version="17.4.2" type="github" pages="2">
   <diagram id="uru9vWaJZVy2WStaJyd-" name="中心化前">
     <mxGraphModel dx="1182" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
         <mxCell id="Po8hCObVcjZqqMwq0fd3-1" value="pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="90" y="130" width="940" height="1461.5" as="geometry" />
         </mxCell>
-        <mxCell id="Po8hCObVcjZqqMwq0fd3-2" value="RSP" style="swimlane;startSize=20;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
+        <mxCell id="Po8hCObVcjZqqMwq0fd3-2" value="RSP" style="swimlane;startSize=20;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
           <mxGeometry y="20" width="230" height="1441.5" as="geometry" />
         </mxCell>
         <mxCell id="Po8hCObVcjZqqMwq0fd3-3" value="connectPlay接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="Po8hCObVcjZqqMwq0fd3-2" vertex="1">
@@ -189,7 +189,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="txtTSe-9MEZv2fITQQTu-13" value="后端推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="txtTSe-9MEZv2fITQQTu-12">
+        <mxCell id="txtTSe-9MEZv2fITQQTu-13" value="&lt;font color=&quot;#ff3333&quot;&gt;上传课件时后端推送&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="txtTSe-9MEZv2fITQQTu-12">
           <mxGeometry x="-0.0095" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -276,7 +276,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Po8hCObVcjZqqMwq0fd3-10" value="APP" style="swimlane;startSize=20;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
+        <mxCell id="Po8hCObVcjZqqMwq0fd3-10" value="APP" style="swimlane;startSize=20;fillColor=#fad9d5;strokeColor=#FF3333;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
           <mxGeometry x="420" y="20" width="310" height="1441.5" as="geometry">
             <mxRectangle x="230" y="20" width="30" height="680" as="alternateBounds" />
           </mxGeometry>
@@ -366,7 +366,7 @@
         <mxCell id="txtTSe-9MEZv2fITQQTu-21" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Po8hCObVcjZqqMwq0fd3-10">
           <mxGeometry x="140" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Po8hCObVcjZqqMwq0fd3-20" value="学生" style="swimlane;startSize=20;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
+        <mxCell id="Po8hCObVcjZqqMwq0fd3-20" value="学生" style="swimlane;startSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="Po8hCObVcjZqqMwq0fd3-1" vertex="1">
           <mxGeometry x="730" y="20" width="210" height="1441.5" as="geometry" />
         </mxCell>
         <mxCell id="Po8hCObVcjZqqMwq0fd3-21" value="学习课件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="Po8hCObVcjZqqMwq0fd3-20" vertex="1">
@@ -462,6 +462,9 @@
           <mxGeometry x="-0.2147" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="txtTSe-9MEZv2fITQQTu-31" value="&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;lt;1.&amp;gt;在4步骤中需要成教请求RSP生成Token，在步骤5RSP把token返回给成教；在步骤6成教把token和目录大纲返回给App；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&amp;lt;2.&amp;gt;在步骤8需要携带的参数&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;videoKey:存储视频的Key(有RSP在目录大纲中的m3u8的URL地址携带)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;token:成教返回给APP&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;centerId:会话ID(由APP点击章节时产生的32位的UUID，并且在同步时长时同步给成教)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;userName:用户名&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;teachingVersion:教学版本&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;orgCode:使用课件的院校code&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;courseCode:课程编码&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;videoId:学习当前章节的视频ID&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;userId:用户ID&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1250" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
