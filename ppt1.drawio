@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T04:01:54.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m9pAbdSyA7CW091K_2kE" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-10T04:51:06.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Foru4gYiAYkQoIYsgUfW" version="20.2.3" type="github" pages="4">
   <diagram id="HXNxVL0AcPgF9Telcvqg" name="单体">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,6 +113,11 @@
               <mxPoint x="420" y="180" />
               <mxPoint x="330" y="180" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21cVrJ3dKxm-41md6S7x-1" value="负载均衡策略" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rifq70johGX3qpaXoGG2-10">
+          <mxGeometry x="0.3382" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rifq70johGX3qpaXoGG2-11" value="Redis集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
