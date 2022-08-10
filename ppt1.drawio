@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T04:55:57.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EEY8HMuLBQmzS7zGnAeP" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-10T08:23:51.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-hTwWQ88NRJWyVVc04HH" version="20.2.3" type="github" pages="4">
   <diagram id="HXNxVL0AcPgF9Telcvqg" name="单体">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="MELr4ZPMH8CRBj1yXyiO-3" value="PC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="163" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="320" y="314" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-6" value="WEB应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-6" value="WEB应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="361" y="324" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-7" value="Manager应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-7" value="Manager应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="361" y="364" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-8" value="业务逻辑(Service)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-8" value="业务逻辑(Service)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="361" y="404" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MELr4ZPMH8CRBj1yXyiO-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -34,7 +34,7 @@
             <mxPoint x="480" y="233" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-11" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-11" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="233" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MELr4ZPMH8CRBj1yXyiO-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -43,10 +43,10 @@
             <mxPoint x="420" y="313" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-13" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-13" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="405" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MELr4ZPMH8CRBj1yXyiO-14" value="MySql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+        <mxCell id="MELr4ZPMH8CRBj1yXyiO-14" value="MySql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="321" y="483" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MELr4ZPMH8CRBj1yXyiO-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
